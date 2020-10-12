@@ -1,0 +1,56 @@
+#page-landing {
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+  background-repeat: no-repeat;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#container {
+  width: 90%;
+  margin: auto;
+}
+
+h1,
+.location,
+.visit > p {
+  height: 16vh;
+}
+
+.visit > a {
+  height: 8rem;
+  width: 8rem;
+  background: #ffd666;
+  border: none;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#logo {
+  animation-delay: 0.05s;
+}
+
+.location {
+  animation-delay: 0.1s;
+}
+
+main > h1 {
+  animation-delay: 0.15s;
+}
+
+.visit > p {
+  animation-delay: 0.2s;
+}
+
+.visit > a {
+  animation-delay: 0.25s;
+}
+
+.visit > a:hover{
+  background-color: #96feff;
+  transition: 0.2s;
+}
